@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Rhymen/go-whatsapp"
+	"github.com/matterbridge/go-whatsapp"
 )
 
 const (

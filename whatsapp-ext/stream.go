@@ -19,7 +19,7 @@ package whatsappExt
 import (
 	"encoding/json"
 
-	"github.com/Rhymen/go-whatsapp"
+	"github.com/matterbridge/go-whatsapp"
 )
 
 type StreamType string

@@ -31,16 +31,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Rhymen/go-whatsapp"
-	waProto "github.com/Rhymen/go-whatsapp/binary/proto"
+	"github.com/matterbridge/go-whatsapp"
+	waProto "github.com/matterbridge/go-whatsapp/binary/proto"
 
 	log "maunium.net/go/maulogger/v2"
 	"maunium.net/go/mautrix"
 	"maunium.net/go/mautrix-appservice"
 
-	"maunium.net/go/mautrix-whatsapp/database"
-	"maunium.net/go/mautrix-whatsapp/types"
-	"maunium.net/go/mautrix-whatsapp/whatsapp-ext"
+	"github.com/matterbridge/mautrix-whatsapp/database"
+	"github.com/matterbridge/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/whatsapp-ext"
 )
 
 func (bridge *Bridge) GetPortalByMXID(mxid types.MatrixRoomID) *Portal {

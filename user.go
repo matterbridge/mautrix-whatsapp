@@ -20,13 +20,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Rhymen/go-whatsapp"
+	"github.com/matterbridge/go-whatsapp"
 	"github.com/skip2/go-qrcode"
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix-whatsapp/database"
-	"maunium.net/go/mautrix-whatsapp/types"
-	"maunium.net/go/mautrix-whatsapp/whatsapp-ext"
+	"github.com/matterbridge/mautrix-whatsapp/database"
+	"github.com/matterbridge/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/whatsapp-ext"
 )
 
 type User struct {

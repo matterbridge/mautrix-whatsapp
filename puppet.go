@@ -22,14 +22,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Rhymen/go-whatsapp"
+	"github.com/matterbridge/go-whatsapp"
 
 	log "maunium.net/go/maulogger/v2"
 	"maunium.net/go/mautrix-appservice"
 
-	"maunium.net/go/mautrix-whatsapp/database"
-	"maunium.net/go/mautrix-whatsapp/types"
-	"maunium.net/go/mautrix-whatsapp/whatsapp-ext"
+	"github.com/matterbridge/mautrix-whatsapp/database"
+	"github.com/matterbridge/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/whatsapp-ext"
 )
 
 func (bridge *Bridge) ParsePuppetMXID(mxid types.MatrixUserID) (types.WhatsAppID, bool) {

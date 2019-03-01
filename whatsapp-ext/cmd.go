@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/Rhymen/go-whatsapp"
+	"github.com/matterbridge/go-whatsapp"
 )
 
 type CommandType string

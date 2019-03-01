@@ -22,7 +22,7 @@ import (
 
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/types"
 )
 
 type PortalKey struct {

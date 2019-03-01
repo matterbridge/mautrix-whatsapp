@@ -21,11 +21,11 @@ import (
 	"database/sql"
 	"encoding/json"
 
-	waProto "github.com/Rhymen/go-whatsapp/binary/proto"
+	waProto "github.com/matterbridge/go-whatsapp/binary/proto"
 
 	log "maunium.net/go/maulogger/v2"
 
-	"maunium.net/go/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/types"
 )
 
 type MessageQuery struct {

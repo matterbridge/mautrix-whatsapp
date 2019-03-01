@@ -22,11 +22,11 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/Rhymen/go-whatsapp"
+	"github.com/matterbridge/go-whatsapp"
 
 	"maunium.net/go/mautrix-appservice"
 
-	"maunium.net/go/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/types"
 )
 
 type BridgeConfig struct {

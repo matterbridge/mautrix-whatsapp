@@ -23,7 +23,7 @@ import (
 	"maunium.net/go/mautrix"
 	"maunium.net/go/mautrix-appservice"
 
-	"maunium.net/go/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/types"
 )
 
 type MatrixHandler struct {

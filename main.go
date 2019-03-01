@@ -27,9 +27,9 @@ import (
 	log "maunium.net/go/maulogger/v2"
 	"maunium.net/go/mautrix-appservice"
 
-	"maunium.net/go/mautrix-whatsapp/config"
-	"maunium.net/go/mautrix-whatsapp/database"
-	"maunium.net/go/mautrix-whatsapp/types"
+	"github.com/matterbridge/mautrix-whatsapp/config"
+	"github.com/matterbridge/mautrix-whatsapp/database"
+	"github.com/matterbridge/mautrix-whatsapp/types"
 )
 
 var configPath = flag.MakeFull("c", "config", "The path to your config file.", "config.yaml").String()
